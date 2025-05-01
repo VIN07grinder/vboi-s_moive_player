@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vboi's Movie Player Launcher</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            margin: 100px;
+        }
+        button {
+            font-size: 20px;
+            padding: 15px 30px;
+            border: none;
+            background-color: #fff;
+            color: #000;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vboi's Movie Player</h1>
+    <button onclick="launchMoviePlayer()">Launch Vboi's Movie Player</button>
+
+    <script>
+        function launchMoviePlayer() {
+            window.open('movie-player.html', '_blank', 'noopener,noreferrer');
+        }
+    </script>
+</body>
+</html>
