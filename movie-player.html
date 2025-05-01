@@ -10,7 +10,8 @@
     <h1>Vboi's Movie Player</h1>
     <input type="text" id="tmdbId" placeholder="Enter TMDB ID">
     <button onclick="loadMovie()">Load Movie</button>
-    <iframe id="movieFrame" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+    <button onclick="launchFullscreenMovie()">Fullscreen Mode</button>
+    <iframe id="movieFrame" width="100%" height="500px" frameborder="0" allowfullscreen sandbox="allow-scripts allow-same-origin allow-presentation"></iframe>
 
     <script src="script.js"></script>
 </body>
